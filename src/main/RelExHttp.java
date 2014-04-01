@@ -23,7 +23,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
-import java.util.HashSet;
 import java.util.Map;
 
 import com.sun.net.httpserver.HttpContext;
@@ -31,7 +30,6 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
-import relex.CommandLineArgParser;
 import relex.ParseStats;
 import relex.RelationExtractor;
 import relex.Sentence;
@@ -39,7 +37,6 @@ import relex.WebFormat;
 import relex.corpus.DocSplitter;
 import relex.corpus.DocSplitterFactory;
 import relex.output.CompactView;
-import sun.misc.IOUtils;
 
 public class RelExHttp extends RelationExtractor
 {
